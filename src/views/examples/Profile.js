@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import me from "assets/img/theme/me.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -75,7 +75,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={profile}
+                            src={me}
                           />
                         </a>
                       </div>
@@ -85,7 +85,7 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
+                        {/* <Button
                           className="mr-4"
                           color="info"
                           href="#pablo"
@@ -93,12 +93,12 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Connect
-                        </Button>
+                        </Button> */}
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="mailto:abraralzobaidi98@gmail.com"
+                          //onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -108,53 +108,53 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">3</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">3</span>
+                          <span className="description">Programming languages</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">1</span>
+                          <span className="description">Years of experience</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Abrar Al-zubaidi{" "}
+                      <span className="font-weight-light">, 23</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Delevoper
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Al-Balqa University
                     </div>
+                    <div style={{marginTop:'15px'}}>
+                      <p>
+                        a computer engineer. interested in programming,
+                        like how we can use code to make something ..
+                      </p>
+                    </div>
+
                   </div>
-                  <div className="mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
+                  <div className="mt-5 ">
+                    {/* <Row className="justify-content-center">
                       <Col lg="9">
-                        <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
-                        </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
-                    </Row>
+                    </Row> */}
                   </div>
                 </div>
               </Card>

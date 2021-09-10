@@ -81,13 +81,17 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Projects & Background{" "}
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      A <b>computer engineer</b>. interested in programming, 
+                          like how we can use code to make something,
+                          how to create a new program which is useful for some people, 
+                          and how to make a machine work. Also, how to solve some problems using it.
+
+                          i take my major just like a gate (or we can say it is a general field) to know what branch i preferred (network, hardware, programming, communication, etc).
+                          in the end i discovered i prefer programming.
+                          i like to do my job at evening cause i like quiet moments and places.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,24 +152,25 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                           Projects
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            <ol>
+                              <li>
+                                Cloud-Warehouse-Services <a href="https://drive.google.com/file/d/14Jjxy01XtJnXdq3_rTx9lFYDo8W18FFy/view">here</a>
+                                
+                              </li>
+                              <li>
+                                Login system <a href="https://drive.google.com/drive/folders/1FycjqiXHFYHYrStQ7UKfkP2CvU4iIzJQ">here</a>
+                                
+                              </li>
+                              <li>
+                                Medical Clinic <a href="https://github.com/AbrarAlzubaidi/medical-clinic">here</a>
+                                
+                              </li>
+                            </ol>
                           </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
+                          
                           <Button
                             className="mt-4"
                             color="primary"
@@ -181,27 +186,24 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-folder-17" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Programming Languages
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           <ol>
+                             <li>
+                               JAVA
+                             </li>
+                             <li>
+                               C++
+                             </li>
+                             <li>
+                               JavaScript
+                             </li>
+                           </ol>
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
                           <Button
                             className="mt-4"
                             color="success"
@@ -217,27 +219,22 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            <i className="ni ni-world-2" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            languages
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            <ul>
+                              <li>
+                                Arabic
+                              </li>
+                              <li>
+                                English
+                              </li>
+                            </ul>
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
+                         
                           <Button
                             className="mt-4"
                             color="warning"
@@ -266,15 +263,20 @@ class Landing extends React.Component {
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
-                    </div>
-                    <h3>Awesome features</h3>
+                    {/* <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                      <i className="ni ni-paper-diploma" />
+                    </div> */}
+                    {/* <h3>Background</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
+                    A <b>computer engineer</b>. interested in programming, 
+                          like how we can use code to make something,
+                          how to create a new program which is useful for some people, 
+                          and how to make a machine work. Also, how to solve some problems using it.
+
+                          i take my major just like a gate (or we can say it is a general field) to know what branch i preferred (network, hardware, programming, communication, etc).
+                          in the end i discovered i prefer programming.
+                          i like to do my job at evening cause i like quiet moments and places.
+                    </p> */}
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">

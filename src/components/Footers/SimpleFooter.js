@@ -38,14 +38,14 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for supporting !
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
                   href="https://twitter.com/creativetim"
@@ -58,11 +58,11 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/abrar.alzobaide"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -71,9 +71,9 @@ class SimpleFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Like
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -83,14 +83,14 @@ class SimpleFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-dribbble" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/AbrarAlzubaidi"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -109,10 +109,10 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://www.abraralzobaidi.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Abrar Al-zubaidi
                   </a>
                   .
                 </div>
